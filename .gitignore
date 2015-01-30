@@ -1,0 +1,6 @@
+_dev
+.sass-cache
+.tmp
+app
+Gemfile.lock
+node_modules
