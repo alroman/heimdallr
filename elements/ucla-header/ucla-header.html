@@ -1,0 +1,18 @@
+<link rel="import" href="../../bower_components/polymer/polymer.html">
+
+<polymer-element name="ucla-header" noscript>
+  <template>
+    <link rel="stylesheet" href="ucla-header.css">
+    <a href="/"><img src="/images/ucla.png" alt="UCLA"></a>
+    <a href="/" class="app-name"><content select="h1"></content></a>
+    
+    <content select="aside"></content>
+  </template>
+  <script>
+    (function () {
+      Polymer({
+        // define element prototype here
+      });
+    })();
+  </script>
+</polymer-element>
