@@ -1,1 +1,1 @@
-!function(a){"use strict";a.addEventListener("polymer-ready",function(){});var b=a.querySelector("paper-tabs"),c=a.querySelector("core-pages");b.addEventListener("core-select",function(){c.selected=b.selected})}(wrap(document)),$(document).ready(function(){$(".account-actions").sticky({topSpacing:10})});
+!function(a){"use strict";a.addEventListener("polymer-ready",function(){});var b=a.querySelector("paper-tabs"),c=a.querySelector("core-pages");b.addEventListener("core-select",function(){c.selected=b.selected})}(wrap(document));
