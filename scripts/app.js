@@ -1,1 +1,1 @@
-!function(a){"use strict";a.addEventListener("polymer-ready",function(){});var b=a.querySelector("paper-tabs"),c=a.querySelector("core-pages");b.addEventListener("core-select",function(){c.selected=b.selected})}(wrap(document));
+webshim.setOptions("forms",{lazyCustomMessages:!0,replaceValidationUI:!0,handleBubble:"hide",fieldWrapper:".fieldset",iVal:{recheckDelay:200}}),webshim.polyfill("forms forms-ext sticky"),$(".account-actions").addClass("ws-sticky").trigger("wssticky");
